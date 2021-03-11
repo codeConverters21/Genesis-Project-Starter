@@ -82,5 +82,5 @@ const nextPhoto = () => {
 
 const previousPhoto = () => {
   modal_image.src = image_list[k];
-  k >= 0 ? (k -= 1) : (k = 9);
+  k > 0 ? (k -= 1) : (k = 9);
 };
