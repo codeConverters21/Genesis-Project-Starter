@@ -143,8 +143,7 @@
 
 #port_close_btn {
   position: absolute;
-  margin-top: 0.5rem;
-  margin-left: 55.5rem;
+  right: 0;
   z-index: 100;
   align-self: flex-start;
   background-color: unset !important;

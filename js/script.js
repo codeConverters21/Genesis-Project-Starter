@@ -62,16 +62,16 @@ const closeModal = () => {
 };
 
 const image_list = [
-  "/img/services-portfolio/port_0.jpg",
-  "/img/services-portfolio/port_1.jpg",
-  "/img/services-portfolio/port_3.jpg",
-  "/img/services-portfolio/port_4.jpg",
-  "/img/services-portfolio/port_2.jpg",
-  "/img/services-portfolio/port_8.jpg",
-  "/img/services-portfolio/port_5.jpg",
-  "/img/services-portfolio/port_6.jpg",
-  "/img/services-portfolio/port_7.jpg",
-  "/img/services-portfolio/port_3.jpg",
+  "img/services-portfolio/port_0.jpg",
+  "img/services-portfolio/port_1.jpg",
+  "img/services-portfolio/port_3.jpg",
+  "img/services-portfolio/port_4.jpg",
+  "img/services-portfolio/port_2.jpg",
+  "img/services-portfolio/port_8.jpg",
+  "img/services-portfolio/port_5.jpg",
+  "img/services-portfolio/port_6.jpg",
+  "img/services-portfolio/port_7.jpg",
+  "img/services-portfolio/port_3.jpg",
 ];
 let k = 0;
 const nextPhoto = () => {
