@@ -1,0 +1,152 @@
+/* services style */
+
+#services_container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #599cad;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+#services_image {
+  max-width: 20rem;
+  max-height: 20rem;
+  margin: 2rem;
+  align-self: center;
+  justify-self: flex-start;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 2px;
+}
+
+#services_items {
+  width: 80%;
+  margin-right: 2rem;
+  text-align: right;
+  align-self: center;
+  justify-self: flex-end;
+}
+
+#services_items i {
+  color: white;
+  font-size: large;
+  margin-left: 1rem;
+  font-weight: bold;
+  background-color: #599cad;
+  border: 1px solid white;
+  padding: 0.3rem 1.3rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+#services_items i:hover {
+  background-color: white;
+  color: #599cad;
+  transition: 0.5s;
+}
+
+#services_items h1 {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 3rem;
+}
+
+#services_items h4 {
+  font-family: Candara;
+  font-size: 1.5rem;
+  height: 3rem;
+}
+
+#services_items p {
+  font-family: candara;
+  height: 3rem;
+}
+
+/* portfolio style */
+
+#port_container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+#port_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+#port_image0 {
+  grid-area: 1/1/3/2;
+}
+#port_image3 {
+  grid-area: 2/2/4/3;
+}
+
+#port_image4 {
+  grid-area: 1/3/3/3;
+}
+#port_image8 {
+  grid-area: 3/4/4/5;
+}
+
+#port_container img:hover {
+  transition: 0.5s ease-in-out;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+#modal {
+  position: absolute;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.3rem;
+  padding: 0.5rem;
+  z-index: 20;
+  left: 5vw;
+  width: 90vw;
+  height: 90vh;
+  border-radius: 0.5rem;
+  display: none;
+}
+
+#modal img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  justify-self: center;
+  opacity: 1;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  background-color: rgba(68, 68, 68, 0.945);
+}
+#modal_image {
+  transition: 1s;
+}
+#modal i {
+  font-size: 3rem;
+  color: white;
+  padding: 0.5rem;
+  background-color: rgba(68, 68, 68, 0.945);
+  opacity: 0.9;
+}
+#modal i:hover {
+  cursor: pointer;
+  color: black;
+}
+
+#port_close_btn {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 55.5rem;
+  z-index: 100;
+  align-self: flex-start;
+  background-color: unset !important;
+  font-size: 2rem;
+}
